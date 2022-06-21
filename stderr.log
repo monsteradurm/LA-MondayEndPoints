@@ -1,0 +1,201 @@
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f24f05a86c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f1dc4ffd6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f1ba389d6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fa59ec8b6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007efe8cde56c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f470cdb46c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f1435ee36c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f63a53076c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fbcae3816c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007ff8e10036c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f339f5cd6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f6ed85a26c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f5a2aaf66c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fbda204b6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fa37a64c6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f42efb806c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f353d9c96c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fea3c72f6c0 (most recent call first):
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fe24038f6c0 (most recent call first):
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 4
+    import LA-MondayEndPoints as application
+             ^
+SyntaxError: invalid syntax
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 4
+    import LA-MondayEndPoints as application
+             ^
+SyntaxError: invalid syntax
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 4
+    import LA-MondayEndPoints as application
+             ^
+SyntaxError: invalid syntax
+2022-06-21 16:37:12.106287 [ERROR] [UID:1085][0] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[ERROR] [UID:1085][3590747] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3590747 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3590890] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3590890 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3591125] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3591125 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3591468] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3591468 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3593011] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3593011 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3593031] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3593031 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3593517] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3593517 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1085][3595244] wsgiHandler getApp [application] failed, pApp=0x7f74e5b6d290.
+[UID:1085][3590741] Child process with pid: 3595244 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.application
+AttributeError: 'module' object has no attribute 'application'
+Traceback (most recent call last):
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.application
+AttributeError: 'module' object has no attribute 'application'
+[UID:1085][3596059] Child process with pid: 3596078 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.application
+AttributeError: 'module' object has no attribute 'application'
+Traceback (most recent call last):
+  File "/home/liquidan/LA-MondayEndPoints/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.application
+AttributeError: 'module' object has no attribute 'application'
+[UID:1085][3596657] Child process with pid: 3596669 was killed by signal: 15, core dump: 0
+[2022-06-21 16:48:48,926] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "LAMondayEndPoints.py", line 8, in TestFieldA
+    { title: "Label 1", value: "label_1" },
+NameError: global name 'title' is not defined
+[2022-06-21 16:49:29,567] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "LAMondayEndPoints.py", line 8, in TestFieldA
+    { "title": "Label 1", value: "label_1" },
+NameError: global name 'title' is not defined
+[2022-06-21 16:50:23,618] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2131, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+[2022-06-21 16:51:03,648] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2131, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+[2022-06-21 16:51:12,177] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2131, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+[2022-06-21 16:52:56,830] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liquidan/virtualenv/LA-MondayEndPoints/2.7/lib/python2.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "LAMondayEndPoints.py", line 7, in TestFieldA
+    return jsonify([
+NameError: global name 'jsonify' is not defined
